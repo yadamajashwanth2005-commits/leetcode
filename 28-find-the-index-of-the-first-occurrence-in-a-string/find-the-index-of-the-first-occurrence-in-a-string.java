@@ -6,7 +6,6 @@ class Solution {
             if (haystack.substring(i, i + m).equals(needle)) {
                 return i;
             }
-
         }
         return -1;
     }
